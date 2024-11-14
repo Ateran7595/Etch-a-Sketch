@@ -5,26 +5,31 @@
 }
 
 body{
+    background-color: aliceblue;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     margin: auto;
+    /* padding-top: 20px; */
 }
-#container{
+#sketch-area{
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid black;
-    width: 256px;
-    height: 256px;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
+    background-color: white;
+    margin: 20px auto;
+    box-shadow: 10px 10px rgb(0, 170, 255, 0.034);
 }
 
-.styled-div {
-    background-color: lightblue;
-    color: white;
-    width: 16px;
-    height: 16px;
-    border: 1px solid black;
+.cell {
+    border: 1px solid whitesmoke;
+}
+
+#delete-content{
+    border-style: none;
+    background-color: rgb(163, 238, 213);
+    font-family: 'Courier New', Courier, monospace;
+    height: 50px;
+    width: 400px;
+    margin: 20px auto;
+    border-radius: 50px;
+    font-weight: bold;
 }
